@@ -1,8 +1,7 @@
 const express=require("express")
 const cors=require("cors")
-const mongoos=require("mongoose")
+const mongoose=require("mongoose")
 const patientRoute=require("./controller/patientRouter")
-const { default: mongoose } = require("mongoose")
 
 const app=express()
 
